@@ -100,26 +100,31 @@ Performed:
 
 **SQL concepts:** Aggregations, `CASE`, `GROUP BY`, CTEs, window functions(`ROW_NUMBER()`), conditional aggregation and indexing.
 
----
-
 ## Project Structure
 
+```
 IBM-Employee-Attrition-Analysis/
 
 ├── 01_Raw_Data
-│   └── Original dataset
-├── 02_Cleaned_Data
-│   └── Cleaned dataset
-├── 03_SQL
-│   └── SQL queries
-├── 04_Power_BI
-│   └── Power BI dashboard (.pbix)
-├── 05_Screenshots
-│   └── Dashboard and evidence screenshots
-├── 06_Project_Report
-│   └── Project documentation
-└── README.md
+│   └── Original telecom customer dataset
 
+├── 02_Cleaned_Data
+│   └── Cleaned dataset after Power Query transformations
+
+├── 03_SQL
+│   └── MySQL validation and analytical queries
+
+├── 04_Power_BI
+│   └── Power BI dashboard (.pbix) file
+
+├── 05_Screenshots
+│   └── Dashboard and Power Query evidence screenshots
+
+├── 06_Project_Report
+│   └── Detailed project documentation
+
+└── README.md
+```
 ## Skills Demonstrated
 
 - Data Cleaning
