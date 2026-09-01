@@ -106,7 +106,7 @@ Performed:
 IBM-Employee-Attrition-Analysis/
 
 ├── 01_Raw_Data
-│   └── Original telecom customer dataset
+│   └── Original dataset
 
 ├── 02_Cleaned_Data
 │   └── Cleaned dataset after Power Query transformations
